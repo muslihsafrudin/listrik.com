@@ -6,9 +6,9 @@ function hitungTotal() {
     const pdamTambah = pdam + 3000;
     const total = listrikTambah + pdamTambah;
   
-    const hasil = `Tagihan Listrik + 3.000: Rp${listrikTambah.toLocaleString()}
-  Tagihan PDAM + 3.000: Rp${pdamTambah.toLocaleString()}
-  Total Tagihan: Rp${total.toLocaleString()}`;
+    const hasil = `Tagihan Listrik = Rp${listrikTambah.toLocaleString()}
+  Tagihan PDAM = Rp${pdamTambah.toLocaleString()}
+  Total Tagihan = Rp${total.toLocaleString()}`;
   
     document.getElementById('output').textContent = hasil;
   }
